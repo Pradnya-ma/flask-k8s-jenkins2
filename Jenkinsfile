@@ -2,7 +2,6 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials') // Set up in Jenkins
         DOCKER_IMAGE = 'neeraz306/flask-app:latest'
     }
 
